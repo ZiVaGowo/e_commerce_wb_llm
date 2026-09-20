@@ -1,0 +1,23 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+
+# Настройки IDE (PyCharm)
+.idea/
+
+# Данные и локальные базы
+data/*.db
+data/*.sqlite
+data/*.jsonl
+
+# Веса обученной модели и адаптеры (слишком тяжелые для Git)
+fine_tuned_model/
+checkpoint-*/
+
+# Логи
+*.log
