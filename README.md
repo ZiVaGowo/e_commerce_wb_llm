@@ -22,7 +22,14 @@
 * **Затраты без AI:** $100{,}000 \times 40 \text{ ₽} = \mathbf{4\,000\,000\text{ ₽ / мес}}$
 * **Затраты с AI:** $(70{,}000 \times 0.30 \text{ ₽}) + (30{,}000 \times 40 \text{ ₽}) = 21{,}000 + 1\,200\,000 = \mathbf{1\,221\,000\text{ ₽ / мес}}$
 * **Чистая экономия:** **~2.77 млн рублей в месяц** ($\mathbf{\approx 69\%}$ бюджета поддержки).
-
+---
+### Подготовка проекта 
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git); `
+cd YOUR_REPO; `
+python -m venv .venv; `
+.\.venv\Scripts\Activate.ps1; `
+python -m pip install --upgrade pip; `
+pip install -r requirements.txt
 ---
 ### ⚙️Запуск полного пайплайна
 ## Формирование базы товаров:
@@ -60,3 +67,4 @@ e_commerce_wb/
 ├── 02_generate_dataset.py      # Генерация синтетических обращений (train/val/test)
 ├── 03_train_lora.py            # Обучение модели с использованием PEFT / QLoRA
 └── 04_evaluate.py              # Оценка метрик (Accuracy, F1, Latency) базовой и LoRA моделей
+
