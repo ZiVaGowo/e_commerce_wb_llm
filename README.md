@@ -23,7 +23,7 @@
 * **Затраты с AI:** $(70{,}000 \times 0.30 \text{ ₽}) + (30{,}000 \times 40 \text{ ₽}) = 21{,}000 + 1\,200\,000 = \mathbf{1\,221\,000\text{ ₽ / мес}}$
 * **Чистая экономия:** **~2.77 млн рублей в месяц** ($\mathbf{\approx 69\%}$ бюджета поддержки).
 ---
-### Подготовка проекта 
+### 🛠️ Подготовка проекта 
 git clone [https://github.com/ZiVaGowo/e_commerce_wb_llm.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git); `
 
 cd YOUR_REPO; `
