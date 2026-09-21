@@ -25,17 +25,17 @@
 ---
 ### 🛠️ Подготовка проекта 
 git clone [https://github.com/ZiVaGowo/e_commerce_wb_llm.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git); `
---
+-
 cd YOUR_REPO; `
---
+-
 python -m venv .venv; `
---
+-
 .\.venv\Scripts\Activate.ps1; `
---
+-
 python -m pip install --upgrade pip; `
---
+-
 pip install -r requirements.txt
---
+-
 ### ⚙️Запуск полного пайплайна
 ## Формирование базы товаров:
 python 01_scrape_wb.py
